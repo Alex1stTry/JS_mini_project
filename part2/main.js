@@ -57,7 +57,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${user}`)
         divInfo.innerHTML = `
         <p>Id: ${value.id}</p>
         <p>Name: ${value.name}</p>
-        <p>User_Name: ${value.userName}</p>
+        <p>User_Name: ${value.username}</p>
         <p>User_email: ${value.email}</p>
         <p>User_phone: ${value.phone}</p>
         <p>User_website: ${value.website}</p>
